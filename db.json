@@ -1,0 +1,65 @@
+{
+  "session": {
+    "code": "A00000",
+    "version":1.0,
+    "msg":"success",
+    "data":{
+      "org_id": "84614920750555405",
+      "uid": 14920750555432
+    }
+  },
+  "employee":{
+      "code": "A00000",
+      "data": {
+        "card_info": [
+          {
+            "motto": "开心每一天",
+            "introduction": "dasd",
+            "portrait": "",
+            "introduction_visible": true,
+            "employee_id": "14920750555432",
+            "motto_visible": true,
+            "assisant_qrcode": "",
+            "custom_qrcode": "111111",
+            "whichqrcode": 1,
+            "id": 1
+          }
+        ],
+        "enterprise_id": {
+          "org_id": "84614920750555405",
+          "authentication_link": "",
+          "permissions": {
+            "admin": [
+              "名片配置",
+              "名片功能配置",
+              "企业活动配置",
+              "产品推荐配置",
+              "编辑我的微名片"
+            ],
+            "user": [
+              "编辑我的微名片"
+            ]
+          },
+          "org_type": "wmptest",
+          "editableinfo": {
+            "motto_visible": true,
+            "introduction_visible": true,
+            "enterprise_activity_visible": true,
+            "production_recomment_visible": true
+          }
+        },
+        "name": "侯昕杰",
+        "phone": "13821763276",
+        "storeaddress": "",
+        "storename": "",
+        "storenumber": "",
+        "email": "houxinjie@yhctech.com",
+        "account": "1020",
+        "uid": "14920750555432",
+        "role": "admin",
+        "position": "总经理",
+        "popularity": 0,
+        "hasscrm": false
+      }
+  }
+}
