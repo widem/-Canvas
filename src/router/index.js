@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Canvas from '../page/Canvas'
 Vue.use(Router)
 export default new Router({
   // mode: 'history',
@@ -11,7 +10,14 @@ export default new Router({
     {
       path: '/canvas',
       name: 'canvas',
-      component: Canvas
+      component: resolve => require(['@/page/Canvas'], resolve),
+      meta: { title: '刮刮乐' }
+    },
+    {
+      path: '/suction',
+      name: 'suctionTop',
+      component: resolve => require(['@/page/SuctionTop'], resolve),
+      meta: { title: '吸顶' }
     }
   ]
 })
