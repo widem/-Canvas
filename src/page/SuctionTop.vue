@@ -44,7 +44,7 @@ export default {
 <style lang="less" scoped>
 .topShow{
   width: 100%;
-  height: 5rem;
+  height: 150px;
   background: #274ea0;
 }
 .botttom{
