@@ -44,23 +44,24 @@ export default {
 <style lang="less" scoped>
 .topShow{
   width: 100%;
-  height: 150px;
+  height: 5rem;
   background: #274ea0;
 }
 .botttom{
   width: 100%;
-  height: 800px;
+  height: 25rem;
   background: gray;
 }
 .title_box {
-  height: 30px;
+  font-size: 0.5rem;
+  height: 2rem;
   background: #999;
   .suction{
-    height: 30px;
+    height: 2rem;
     width: 100%;
     background: pink;
     text-align: center;
-    line-height: 30px;
+    line-height: 2rem;
   }
   .isFixed{
     position:fixed;
@@ -74,8 +75,8 @@ export default {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 50px;
-  font-size: 16px;
+  height: 1.5rem;
+  font-size: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,7 +86,7 @@ export default {
   box-sizing: border-box;
   width: 50%;
   height: 100%;
-  line-height: 50px;
+  line-height: 1.5rem;
   text-align: center;
   background: #2980b9;
   background-image: -webkit-linear-gradient(top, #274ea0, #1e3d80);
@@ -110,7 +111,7 @@ export default {
   position: sticky;
   top: 0;
   text-align: center;
-  line-height: 30px;
+  line-height: 2rem;
   background: pink;
 }
 </style>

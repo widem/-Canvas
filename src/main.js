@@ -5,10 +5,19 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 import { WechatPlugin } from 'vux'
+import 'lib-flexible/flexible'
 
 Vue.use(WechatPlugin)
 Vue.prototype.$http = axios
 Vue.config.productionTip = false
+
+window.onresize = setHtmlFontSize
+function setHtmlFontSize () {
+  const htmlWidth = document.documentElement.clientWidth || document.body.clientWidth
+  const htmlDom = document.getElementsByTagName('html')[0]
+  htmlDom.style.fontSize = htmlWidth / 10 + 'px'
+}
+setHtmlFontSize()
 
 /* eslint-disable no-new */
 new Vue({
