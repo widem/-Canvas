@@ -5,7 +5,9 @@
       <div class="suction" :class="isFixed ? 'isFixed' : ''">使用`getBoundingClientRect`实现</div>
     </div>
     <div class="title_box sticky" v-else>使用 `position:sticky` 实现</div>
-    <div class="botttom"></div>
+    <div class="botttom">
+      <p v-for="item in 10" :key="item">{{item}}</p>
+    </div>
     <div class="bottom_tab">
       <div class="sub_tab" v-for="(dateTab, index) in dateTabs" :key="index" @click="change(index)" :class='{active:index===number}'>{{dateTab}}</div>
     </div>
@@ -26,8 +28,10 @@ export default {
   },
   methods: {
     handleScrollThree () {
-      let offsetTop = this.$refs.pride_tab_fixed.getBoundingClientRect().top
-      this.isFixed = offsetTop < 0
+      if (this.$refs.pride_tab_fixed.getBoundingClientRect().top) {
+        let offsetTop = this.$refs.pride_tab_fixed.getBoundingClientRect().top
+        this.isFixed = offsetTop < 0
+      }
     },
     change (index) {
       this.number = index
