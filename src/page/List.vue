@@ -13,7 +13,9 @@ export default {
       list: [
         {value: '刮刮乐', key: 'canvas'},
         {value: 'Top', key: 'suctionTop'},
-        {value: '动画', key: 'animation'}
+        {value: '动画', key: 'animation'},
+        {value: 'Grid', key: 'grid'},
+        {value: 'Beat', key: 'beat'}
       ]
     }
   },

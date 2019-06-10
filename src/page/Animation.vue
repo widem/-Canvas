@@ -27,6 +27,7 @@ export default {
   background:url('../assets/love.jpeg');
   height: 100%;
   background-size: 100% 100%;
+  box-sizing: border-box;
   p, h3{
     font-size: 0.42666667rem;
     line-height: 1.06666667rem;

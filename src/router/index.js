@@ -30,6 +30,18 @@ export default new Router({
       name: 'animation',
       component: resolve => require(['@/page/Animation'], resolve),
       meta: { title: '动画' }
+    },
+    {
+      path: '/grid',
+      name: 'grid',
+      component: resolve => require(['@/page/Grid'], resolve),
+      meta: { title: '网格布局' }
+    },
+    {
+      path: '/beat',
+      name: 'beat',
+      component: resolve => require(['@/page/Beat'], resolve),
+      meta: { title: '跳动' }
     }
   ]
 })
