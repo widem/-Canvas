@@ -42,6 +42,12 @@ export default new Router({
       name: 'beat',
       component: resolve => require(['@/page/Beat'], resolve),
       meta: { title: '跳动' }
+    },
+    {
+      path: '/directives',
+      name: 'directives',
+      component: resolve => require(['@/page/Directives'], resolve),
+      meta: { title: 'copy指令' }
     }
   ]
 })

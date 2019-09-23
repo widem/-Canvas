@@ -15,7 +15,8 @@ export default {
         {value: 'Top', key: 'suctionTop'},
         {value: '动画', key: 'animation'},
         {value: 'Grid', key: 'grid'},
-        {value: 'Beat', key: 'beat'}
+        {value: 'Beat', key: 'beat'},
+        {value: 'VueCopy指令', key: 'directives'}
       ]
     }
   },

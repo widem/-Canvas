@@ -6,11 +6,12 @@ import router from './router'
 import axios from 'axios'
 import { WechatPlugin } from 'vux'
 import 'lib-flexible/flexible'
+import Directives from './Fun/directives'
 
 Vue.use(WechatPlugin)
 Vue.prototype.$http = axios
 Vue.config.productionTip = false
-
+Vue.use(Directives)
 // window.onresize = setHtmlFontSize
 // function setHtmlFontSize () {
 //   const htmlWidth = document.documentElement.clientWidth || document.body.clientWidth
