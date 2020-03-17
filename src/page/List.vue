@@ -16,7 +16,9 @@ export default {
         {value: '动画', key: 'animation'},
         {value: 'Grid', key: 'grid'},
         {value: 'Beat', key: 'beat'},
-        {value: 'VueCopy指令', key: 'directives'}
+        {value: 'VueCopy指令', key: 'directives'},
+        {value: '函数防抖', key: 'debounce'},
+        {value: '函数节流', key: 'throttle'}
       ]
     }
   },

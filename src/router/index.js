@@ -48,6 +48,18 @@ const router = new Router({
       name: 'directives',
       component: resolve => require(['@/page/Directives'], resolve),
       meta: { title: 'copy指令' }
+    },
+    {
+      path: '/debounce',
+      name: 'debounce',
+      component: resolve => require(['@/page/Debounce.vue'], resolve),
+      meta: { title: '函数防抖' }
+    },
+    {
+      path: '/throttle',
+      name: 'throttle',
+      component: resolve => require(['@/page/Throttle.vue'], resolve),
+      meta: { title: '函数节流' }
     }
   ]
 })
